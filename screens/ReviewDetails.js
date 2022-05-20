@@ -1,15 +1,10 @@
 import {StyleSheet, View, Text} from "react-native";
+import {globalStyles} from "../styles/global";
 
 export const ReviewDetails = () => {
     return (
-        <View style={styles.container}>
+        <View style={globalStyles.container}>
             <Text>ReviewDetails screen</Text>
         </View>
     )
 }
-
-const styles = StyleSheet.create({
-    container: {
-        padding: 35,
-    }
-})
